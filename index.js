@@ -1,4 +1,4 @@
-/*
+
 //p18.ex5
 var numOne = +prompt("please enter number one");
 var numTwo = +prompt("please enter number two");
@@ -9,11 +9,11 @@ console.log("number two: "+ numTwo + " is smaller, than number one: " + numOne);
 } else{
 console.log("number one: "+ numOne + " is smaller, than number two: " + numTwo);
 }
-*/
 
 
 
-/*
+
+
 //p20.ex4
 var number = +prompt("please enter number from 1 to 9999");
 //error msg
@@ -28,9 +28,9 @@ count = count+1;
 number = parseInt(number / 10);
 }
 console.log("amount of digits in this number is: " + count);
-*/
 
-/*
+
+
 //p27.ex2
 var numOne = +prompt("please enter whole number one:");
 var numTwo = +prompt("please enter whole number two:");
@@ -59,9 +59,9 @@ var counter = minNum;
 while (counter <= maxNum) {
   console.log(counter++);
 }
-*/
 
-/*
+
+
 //p27.ex3
 var number = +prompt("please enter whole positive number");
 //conditioon check
@@ -82,9 +82,9 @@ while(counter < number - 1){
     counter = counter+2;
     console.log(counter);
 }
-*/
 
-/*
+
+
 //p27.ex5
 let number = +prompt("please enter positive number: ");
 if (number < 0) {
@@ -110,4 +110,3 @@ console.log("sumNumbers = " + sumNumbers);
 }
 //final result
 console.log("the sum of entered numbers is = " + sumNumbers);
-*/
