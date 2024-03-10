@@ -64,11 +64,11 @@ while (counter <= maxNum) {
 
 //p27.ex3
 var number = +prompt("please enter whole positive number");
-//conditioon check
+//condition check
 if(number < 0 || number % 1 !== 0){
 console.log("please enter whole positive number")
 }
-//2 messages for myself. doesn't mandatory here.
+//2 messages for myself. it isn't mandatory here.
 if(number % 2 == 0){
     console.log(number + " is even")
 } else{
@@ -101,7 +101,7 @@ while (number !== -99) {
 number = +prompt("enter next positive number:");
 //msg for myself - checking calculation
 console.log("number = " + number)
-//second check to not include negative value in calculation. somebody please kill me now.
+//second check to not include negative value in the calculation. somebody, please kill me now.
 if (number !== -99){
 sumNumbers = sumNumbers+number;
 //msg for myself - last check before the end of the loop. all good, pal?
@@ -109,4 +109,4 @@ console.log("sumNumbers = " + sumNumbers);
 }
 }
 //final result
-console.log("the sum of entered numbers is = " + sumNumbers);
+console.log("the sum of the entered numbers is = " + sumNumbers);
